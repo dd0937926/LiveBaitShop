@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Bait & Gear | Howard's Lakeside General Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght=700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>Howard's Lakeside Store</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" aria-current="page">Live Bait & Gear</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Live Bait, Tackle, and Fishing Supplies</h1>
+            <p>Everything you need for a successful day on the water, from the minnow bucket to the tackle box.</p>
+        </section>
+
+        <section class="bait-list">
+            <h1>Current Live Bait and Cold Bait Prices</h1>
+            <p class="availability-note"><strong>Note:</strong> Bait availability is seasonal. Please call ahead for current stock. Prices are subject to change.</p>
+
+            <section class="bait-category">
+                <h2>Live Insects & Worms</h2>
+                <img src="images/worms.jpg" alt="A container of lively redworms for fishing." class="category-image">
+                <dl class="price-list">
+                    <dt>Redworms</dt>
+                    <dd>$3.45 / 24 ct.</dd>
+                    <dt>Night Crawlers</dt>
+                    <dd>$2.80 / 12 ct.</dd>
+                    <dt>Glow Worms</dt>
+                    <dd>$3.25 / 12 ct.</dd>
+                    <dt>Wax Worms</dt>
+                    <dd>$2.80 / 50 ct.</dd>
+                    <dt>Leeches</dt>
+                    <dd>$4.00 / 12 ct.</dd>
+                </dl>
+            </section>
+
+            <section class="bait-category">
+                <h2>Live Fish (Minnows & Feeders)</h2>
+                <img src="images/minnows.jpg" alt="A scoop of golden shiner minnows in a bait bucket." class="category-image">
+                <dl class="price-list">
+                    <dt>Crappie Minnows</dt>
+                    <dd>$2.00 / 12 ct.</dd>
+                    <dt>Bass Minnows</dt>
+                    <dd>$2.20 / 12 ct.</dd>
+                    <dt>Chubbs</dt>
+                    <dd>Call for Price/Availability</dd>
+                    <dt>Goldfish - Small</dt>
+                    <dd>$2.00 / ea.</dd>
+                    <dt>Goldfish - Large</dt>
+                    <dd>$3.00 / ea.</dd>
+                    <dt>Catfish Bait - Small</dt>
+                    <dd>$1.50 / ea.</dd>
+                    <dt>Catfish Bait - Medium</dt>
+                    <dd>$3.00 / ea.</dd>
+                    <dt>Catfish Bait - Large</dt>
+                    <dd>$4.50 / ea.</dd>
+                </dl>
+            </section>
+
+            <section class="bait-category">
+                <h2>Frozen & Prepared Cold Bait</h2>
+                <img src="images/coldbait.jpg" alt="Assortment of frozen bait, including shad and cut bait, on ice." class="category-image">
+                <dl class="price-list">
+                    <dt>Skipjack</dt>
+                    <dd>$8.00</dd>
+                    <dt>Shad</dt>
+                    <dd>$6.00</dd>
+                    <dt>Strawberry Liver</dt>
+                    <dd>$3.00 / tub</dd>
+                    <dt>Cherry Liver</dt>
+                    <dd>$3.00 / tub</dd>
+                    <dt>Plain Liver</dt>
+                    <dd>$3.00 / tub</dd>
+                    <dt>Shrimp</dt>
+                    <dd>$4.50 / tub</dd>
+                    <dt>Corn</dt>
+                    <dd>$1.00 / tub</dd>
+                </dl>
+            </section>
+            
+            <a href="index.html#contact-details" class="cta-button secondary-button">Need Bulk Bait? Contact Us</a>
+
+        </section>
+
+        <section class="gear-and-video">
+            <h2>Essential Fishing Gear, General Supplies & Services</h2>
+            <div class="gear-content-flex">
+                <div class="gear-text">
+                    <p>We carry top brands of lures, rods, reels, and fishing line, and offer essential services and supplies for your trip.</p>
+                    <h3>Our Offerings Include:</h3>
+                    <ul>
+                        <li><strong>Tackle</strong> (Lures, Hooks, Weights, Bobbers)</li>
+                        <li>Rods & Reels (Spinning and Baitcasting)</li>
+                        <li>Fishing and Hunting Licenses (Available In-Store)</li>
+                        <li><strong>Professional Line Respooling Service</strong></li>
+                        <li><strong>Camping Supplies</strong> (Firewood, Basics)</li>
+                        <li><strong>Drinks, Pop, and Snacks</strong></li>
+                    </ul>
+                </div>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rhhBPNUXYis?si=qhTH0bgV2iui0zT5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear"></span> Howard's Lakeside General Store. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Accessibility Statement</a> | 
+            <a href="https://www.facebook.com/people/Howards-Lakeside-General-Store/100057407261126/" target="_blank" rel="noopener noreferrer">Find Us on Facebook </a>
+        </p>
+    </footer>
+
+    <script>document.getElementById('currentYear').textContent = new Date().getFullYear();</script>
+</body>
+</html>
